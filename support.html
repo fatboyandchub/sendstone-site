@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Support - Sendstone</title>
+<meta name="description" content="Help with Sendstone: what you need on your computer, pairing your phone, finding your computer, using it away from home, removing a device and which AIs work.">
+<link rel="canonical" href="https://sendstone.3dlibrary.app/support">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0b0c" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sendstone">
+<meta property="og:title" content="Support - Sendstone">
+<meta property="og:description" content="Help with Sendstone: what you need on your computer, pairing your phone, finding your computer, using it away from home, removing a device and which AIs work.">
+<meta property="og:url" content="https://sendstone.3dlibrary.app/support">
+<meta property="og:image" content="https://sendstone.3dlibrary.app/assets/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/assets/icon-64.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/assets/icon-64.png" alt="" width="28" height="28">Sendstone</a>
+    <nav aria-label="Main">
+      <a class="wide" href="/#how">How it works</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/support" aria-current="page">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap article">
+  <h1>Support</h1>
+  <p class="meta">Help with setting up and using Sendstone.</p>
+
+  <section class="box" aria-labelledby="write">
+    <h2 id="write">Write to us</h2>
+    <p class="contact"><a href="mailto:sendstone@3dlibrary.app">sendstone@3dlibrary.app</a></p>
+    <p>Questions, problems or ideas are all welcome. Say which phone or tablet you use, which computer Sendstone is on, and what you were doing when something went wrong.</p>
+  </section>
+
+  <nav aria-label="Questions on this page">
+    <p class="jump">Common questions:</p>
+    <ul class="toc">
+      <li><a href="#computer">What do I need on my computer?</a></li>
+      <li><a href="#pair">How do I pair my phone?</a></li>
+      <li><a href="#cant-find">The app can't find my computer</a></li>
+      <li><a href="#away">Does it work away from home?</a></li>
+      <li><a href="#free">Is it free?</a></li>
+      <li><a href="#remove">How do I remove a device?</a></li>
+      <li><a href="#ais">Which AIs work?</a></li>
+    </ul>
+  </nav>
+
+  <h2 id="computer">What do I need on my computer?</h2>
+  <p>A Mac, a Windows 10 or 11 PC, or a Linux computer, with at least one AI tool on it, such as Claude Code, Codex, Gemini or Ollama. You do not need an administrator password.</p>
+  <p>Sendstone installs into your own user folder in about two minutes. After that it keeps running quietly in the background, and starts again each time you log in. To pair, the computer and your phone need to be on the same Wi-Fi.</p>
+
+  <h2 id="pair">How do I pair my phone?</h2>
+  <p>When Sendstone has finished installing, the computer shows a square code.</p>
+  <ol>
+    <li>Open Sendstone on your phone and choose Connect my computer.</li>
+    <li>Point the camera at the code on the computer's screen.</li>
+    <li>The computer says Connected, with your phone's name. That's it.</li>
+  </ol>
+  <p>No camera, or the code won't scan? Pick your computer in the app and type the six numbers shown under the code instead.</p>
+  <p>A code works for five minutes. If it runs out, run the install line on the computer again. It is safe to run as often as you like, and it shows a new code.</p>
+  <p>To add another phone or tablet later, open Settings in Sendstone on a device that is already paired, and choose Pair a phone or tablet.</p>
+
+  <h2 id="cant-find">The app can't find my computer</h2>
+  <ul>
+    <li>Both need to be on the same Wi-Fi. A guest Wi-Fi, or the phone on mobile data, won't work for this.</li>
+    <li>On an iPhone or iPad, let Sendstone use the local network: Settings → Privacy &amp; Security → Local Network → turn on Sendstone.</li>
+    <li>The computer has to be on and awake.</li>
+    <li>On a Mac, if it asks whether Python may accept incoming network connections, click Allow. Sendstone runs on Python.</li>
+    <li>On Windows, the Wi-Fi has to be set as a private network: Settings → Network &amp; internet → Wi-Fi → your network → Private network. If Windows Security asks about Python, tick Private networks and click Allow access.</li>
+    <li>On Linux, if you have turned on a firewall, let in TCP port 7420 and UDP port 7421.</li>
+  </ul>
+  <p>Still stuck? Run the install line on the computer again. It repairs what is there, never touches your chats, and shows a new code to scan.</p>
+
+  <h2 id="away">Does it work away from home?</h2>
+  <p>Yes, in the iPhone, iPad and Mac apps. At home they talk to your computer directly, over your Wi-Fi. Away from home they connect through a relay: a small server that passes the encrypted traffic between the two. The relay can't read it and stores nothing.</p>
+  <p>Your computer needs to be on, awake and connected to the internet.</p>
+  <p>The Windows app connects to your computer over your home network, not through the relay.</p>
+
+  <h2 id="free">Is it free?</h2>
+  <p>Yes. Sendstone has no account, no subscription and nothing to buy.</p>
+  <p>The AI tools have their own plans, and Sendstone uses the ones you already have. If you chat with your own API key, that AI company bills you for what you use, as it normally would. The models that run on the phone are free.</p>
+
+  <h2 id="remove">How do I remove a device?</h2>
+  <p>Open Settings in Sendstone on any device that is paired with the computer. Under Devices that can use this computer, choose Remove next to the one you want to cut off. It is signed out straight away. Do this if a phone is lost.</p>
+  <p>To unpair the device in your hand, choose Forget this computer in Settings. Your chats stay on the computer, and you can pair again at any time.</p>
+
+  <h2 id="ais">Which AIs work?</h2>
+  <ul>
+    <li><strong>On your computer:</strong> Claude Code, Codex, Gemini, Ollama and others, on the plans you already pay for. The app lists the ones it finds there.</li>
+    <li><strong>With your own API key:</strong> Anthropic, OpenAI, Google and others, straight from your phone.</li>
+    <li><strong>On the phone itself:</strong> small models that run with no internet.</li>
+  </ul>
+  <p>If an AI on your computer needs signing in: Claude Code and Codex can be signed in from your phone, on the company's own sign-in page. Others are signed in once on the computer. Either way you sign in with the company that makes the AI, so Sendstone never sees your password.</p>
+
+  <p class="more">The <a href="/privacy">privacy policy</a> says what Sendstone keeps, and where.</p>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>© 2026 Sendstone</p>
+    <nav aria-label="Footer">
+      <a href="/support" aria-current="page">Support</a>
+      <a href="/privacy">Privacy Policy</a>
+      <a href="mailto:sendstone@3dlibrary.app">sendstone@3dlibrary.app</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
